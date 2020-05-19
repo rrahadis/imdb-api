@@ -81,11 +81,4 @@ $(document).ready(function() {
 });
  
 
-$(window).resize(function() { 
-    if (document.documentElement.clientWidth <= 560 || document.documentElement.clientWidth >= 1024) {
-        this.location.reload();
-    }    
-});
-
-
 customElements.define("search-bar", SearchBar);
